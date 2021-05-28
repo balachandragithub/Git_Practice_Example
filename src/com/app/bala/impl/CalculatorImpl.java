@@ -15,6 +15,12 @@ public class CalculatorImpl implements ICalculator{
 		int c=a-b;
 		return c;
 	}
+
+	@Override
+	public int multiplyTwoNumbers(int a, int b) {
+		int c=a*b;
+		return c;
+	}
 	
 	
 
